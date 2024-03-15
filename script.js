@@ -149,17 +149,17 @@ backward.addEventListener('click', playPreviousSong);
 
 let songCard = [
     { src: "qaafirana.mp3", name: "Qaafirana (From \"Kedarnath\")", year: "2018", singer: "Arjit Singh, Nikhita Gandhi", image: "qaafirana.jpg" },
-    { src: "tereJaisaYaarKahan.mp3", name: "Tere Jaisa Yaar Kahan", year: "1981", singer: "Kishore Kumar", image: "chhuKarMereMAnko.png" },
+    { src: "tereJaisaYaarKahan.mp3", name: "Tere Jaisa Yaar Kahan", year: "1981", singer: "Kishore Kumar", image: "chhuKarMereManko.png" },
     { src: "rangLageya.mp3", name: "Rang Lageya", year: "2021", singer: "Mohit Chauhan, Rochak Kohil", image: "rangLageya.jpeg" },
     { src: "kalHoNaHo.mp3", name: "Kal Ho Naa Ho Lofi", year: "2003", singer: "Sonu Nigam, Shankar Mahadevan, KK, Alka Yagnik", image: "kalHoNaHo.png" },
    { src: "iktaraLofi.mp3", name: "Iktara Lofi", year: "2009", singer: "Kavita Seth, Amit Trivedi, Amitabh Bhattacharya", image: "iktaraLofi.png" },
     { src: "dilJhoom.mp3", name: "Dil Jhoom", year: "2023", singer: "Mithoon, Uttam Singh", image: "dilJhoom.jpeg" },
     { src: "zaraSa.mp3", name: "Zara Sa Lofi", year: "2008", singer: "Pritam, KK", image: "zaraSa.png" },
     { src: "oMaahi.mp3", name: "O Maahi (From \"Dunki\")", year: "2023", singer: "Pritam, Arjit Singh, Irshad Kamil", image: "oMaahi.jpeg" },
-    // { src: "pehlaPyar.mp3", name: "Pehla Pyar (\"Kabir Singh\")", year: "2019", singer: "Vishal Mishra", image: "pehlaPyar.jpeg" },
-    // { src: "teriBaatonMeinAisa.mp3", name: "Teri Baaton Main Aisa Uljha Jiya", year: "2024", singer: "Tanishk Bagchi, Mitraz, Sachin-Jigar", image: "teriBaatonMainAisa.jpeg" },
-    // { src: "raataanLambiyan.mp3", name: "Raataan Lambiyan", year: "2021", singer: "Tanishk Bagchi, Jubin Nautiyal", image: "raataanLambiyan.jpg" },
-    // { src: "mahiyeJinnaSohna.mp3", name: "Mahiye Jinna Sohna", year: "2023", singer: "Darshan Raval", image: "mahiyeJinnaSona.jpeg" },
+    { src: "pehlaPyar.mp3", name: "Pehla Pyar (\"Kabir Singh\")", year: "2019", singer: "Vishal Mishra", image: "pehlaPyar.jpeg" },
+    { src: "teriBaatonMeinAisa.mp3", name: "Teri Baaton Main Aisa Uljha Jiya", year: "2024", singer: "Tanishk Bagchi, Mitraz, Sachin-Jigar", image: "teriBaatonMainAisa.jpeg" },
+    { src: "raataanLambiyan.mp3", name: "Raataan Lambiyan", year: "2021", singer: "Tanishk Bagchi, Jubin Nautiyal", image: "raataanLambiyan.jpg" },
+    { src: "mahiyeJinnaSohna.mp3", name: "Mahiye Jinna Sohna", year: "2023", singer: "Darshan Raval", image: "mahiyeJinnaSona.jpeg" },
  ];
 
 function songCards() {
@@ -645,7 +645,7 @@ let playList = [
        { src: "tereJaisaYaarKahan.mp3", name: "Tere Jaisa Yaar Kahan", year: "1981", singer: "Kishore Kumar", image: "tereJaisaYaarKahan.png" },
        { src: "mereNaseebMain.mp3", name: "Mere Naseeb Mein Ae Dost", year: "1969", singer: "Kishore Kumar", image: "mereNaseebMain.png" },
        { src: "horiKheleRaghuvira.mp3", name: "Hori Khele Raghuveera", year: "2003", singer: " Amitabh Bachchan, Sukhwinder Singh, Alka Yagnik, Udit Narayan", image: "horiKheleRaghuvira.png" },
-       { src: "chhuKarMereMAnko.mp3", name: "Chhu Kar Mere Manko", year: "1981", singer: "Kishore Kumar", image: "chhuKarMereMAnko.png" },
+       { src: "chhuKarMereManko.mp3", name: "Chhu Kar Mere Manko", year: "1981", singer: "Kishore Kumar", image: "chhuKarMereManko.png" },
        { src: "januMeriJaan.mp3", name: "Janu Meri Jaan", year: "1980", singer: "Mohammed Rafi, Kishore Kumar, Asha Bhosle, Usha Mangeshkar", image: "januMeriJaan.png" },
         { src: "yehDostiHumNahiTodenge.mp3", name: "Yeh Dosti Hum Nahi Todenge", year: "1975", singer: "Kishore Kumar, Manna Dey", image: "yehDostiHumNahiTodenge.png" },
         { src: "rangBarseBheege.mp3", name: "Rang Barse Bheege Chunarwali", year: "1981", singer: "Amitabh Bachchan", image: "rangBarseBheege.png" },
