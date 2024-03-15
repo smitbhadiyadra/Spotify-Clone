@@ -1338,6 +1338,8 @@ h2{
 
 .playlistContainer .playListDets img{
     height: 100%;
+    scale: 0;
+    opacity: 0;
     object-fit: cover;
     border-radius: 5px;
     filter: drop-shadow(0 0 8px #00000060);
@@ -1359,18 +1361,23 @@ h2{
     font-size: 1vw;
     font-weight: 600;
     color: #fff;
+    opacity: 0;
+    scale: .5;
 }
 .playlistContainer .playListDets .dets h1{
     font-size: 4.5vw;
     font-weight: 700;
     letter-spacing: -2px;
     color: #fff;
+    opacity: 0;
+    scale: .5;
 }
 .playlistContainer .playListDets .dets h3{
     font-size: 1vw;
     font-weight: 500;
     color: #fff;
-    opacity: .5;
+    opacity: 0;
+    scale: .5;
 }
 
 
@@ -1408,6 +1415,8 @@ h2{
     gap: 15px;
     cursor: pointer;
     z-index: 0;
+    opacity: 0;
+    margin-top: 2%;
   }
 
   .playlistCard:hover{

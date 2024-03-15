@@ -728,28 +728,58 @@ function openPlayList(){
             document.querySelector(".sticky-playlist").innerHTML = clutter;
             
             mainDown.style.display = "none"
+                
+            let tl2 = gsap.timeline()
 
-            // gsap.to(sideBar,{
-            //     opacity: .2,
-            //     duration: .3,
-            // })
-
-            // gsap.to(mainContent,{
-            //     opacity: .2,
-            //     duration: .3,
-            // })
-        
-
-            gsap.to(".playlistContainer",{
+            tl2.to(".playlistContainer",{
                 display: "block",
                 height: "100%",
                 opacity: 1,
                 zIndex: 599,
                 duration: .6,
                 ease: Power3
-            })
+            },"ani")
+
+            tl2.to(".playListDets img",{
+                scale: 1,
+                duration: .7,
+                delay: .2,
+                opacity: 1
+            },"ani")
+
+            tl2.to(".playListDets .dets h4",{
+                x: 10,
+                scale: 1,
+                duration: .7,
+                delay: .2,
+                opacity: 1
+            },"ani")
+            tl2.to(".playListDets .dets h1",{
+                x: 10,
+                scale: 1,
+                duration: .7,
+                delay: .2,
+                opacity: 1
+            },"ani")
+            tl2.to(".playListDets .dets h3",{
+                x: 10,
+                scale: 1,
+                duration: .7,
+                delay: .2,
+                opacity: .5
+            },"ani")
+            tl2.to(".playlistCard",{
+                marginTop: "0%",
+                duration: 1,
+                delay: .3,
+                opacity: 1,
+                stagger: .1
+            },"ani")
+            
             
         })
+
+        
 
         playlistContainer.addEventListener("click", function (dets) {
 
